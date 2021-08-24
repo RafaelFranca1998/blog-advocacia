@@ -21,11 +21,11 @@
     },
     {
       "src": "/",
-      "dest": "ui/build/index.html"
+      "dest": "ui/dist/index.html"
     },
     {
       "src": "/(.+)",
-      "dest": "ui/build/$1"
+      "dest": "ui/dist/$1"
     }
   ]
 }
