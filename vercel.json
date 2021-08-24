@@ -9,9 +9,9 @@
       "config": { "includeFiles": ["backend/build/**"] }
     },
     {
-      "src": "ui/dist/**",
+      "src": "ui/build/**",
       "use": "@vercel/static",
-      "config": { "includeFiles": ["ui/dist/**"] }
+      "config": { "includeFiles": ["ui/build/**"] }
     }
   ],
   "routes": [
@@ -21,11 +21,11 @@
     },
     {
       "src": "/",
-      "dest": "ui/dist/index.html"
+      "dest": "ui/build/index.html"
     },
     {
       "src": "/(.+)",
-      "dest": "ui/dist/$1"
+      "dest": "ui/build/$1"
     }
   ]
 }
