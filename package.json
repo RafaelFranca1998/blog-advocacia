@@ -1,8 +1,8 @@
 {
-  "name": "vercel-express",
-  "version": "1.2.0",
+  "name": "blog-advocacia",
+  "version": "0.0.0",
   "description": "Vercel Express and UI fullstack webapp example.",
-  "author": "Duc Nguyen",
+  "author": "Rafael França",
   "homepage": "https://github.com/ngduc/vercel-express",
   "main": "app/build/index.js",
   "scripts": {

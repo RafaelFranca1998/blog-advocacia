@@ -109,3 +109,7 @@ dist
 build
 
 .vercel
+
+.vercel
+
+package-lock.json
